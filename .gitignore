@@ -19,4 +19,5 @@ data_loader_old.py
 Utils/word_embeddings_old.py
 gen_backup.py
 data_loader_test.py
-downloadModels.sh
+downloadModels.sh.ipynb_checkpoints/
+.ipynb_checkpoints

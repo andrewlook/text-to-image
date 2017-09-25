@@ -79,7 +79,7 @@ def main():
 	g_optim = tf.train.AdamOptimizer(args.learning_rate, beta1 = args.beta1).minimize(loss['g_loss'], var_list=variables['g_vars'])
 	
 	sess = tf.InteractiveSession()
-	tf.initialize_all_variables().run()
+	tf.global_variables_initializer().run()
 	
 	saver = tf.train.Saver()
 	if args.resume_model:
