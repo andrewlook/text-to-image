@@ -16,6 +16,9 @@ Image Source : [Generative Adversarial Text-to-Image Synthesis][2] Paper
 - [scikit-learn][7] : for skip thought vectors
 - [NLTK][8] : for skip thought vectors
 
+NOTE: find tensorflow download for old version r0.11 here:
+https://github.com/tensorflow/tensorflow/blob/r0.11/tensorflow/g3doc/get_started/os_setup.md
+
 ## Datasets
 - All the steps below for downloading the datasets and models can be performed automatically by running `python download_datasets.py`. Several gigabytes of files will be downloaded and extracted.
 - The model is currently trained on the [flowers dataset][9]. Download the images from [this link][9] and save them in ```Data/flowers/jpg```. Also download the captions from [this link][10]. Extract the archive, copy the ```text_c10``` folder and paste it in ```Data/flowers```.
