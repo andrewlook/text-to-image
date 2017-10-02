@@ -1,0 +1,10 @@
+
+# Tensorflow base docker image
+
+build a GPU one locally.
+- <clone tensorflow repo>
+- cd tensorflow/tensorflow/tools/docker
+- edit Dockerfile.devel-gpu: FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu14.04
+- TF_DOCKER_BUILD_DEVICE_TYPE=gpu TF_DOCKER_BUILD_IS_DEVEL=yes ./parameteized_docker_build.sh
+
+Will build an image called `...`
