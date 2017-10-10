@@ -1,1 +1,2 @@
 - update batch_norm to be compatible with TF 1.2.0 (see tf DCGAN example)
+- use TF skipthoughts code instead of theano
