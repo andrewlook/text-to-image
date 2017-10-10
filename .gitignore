@@ -21,3 +21,5 @@ gen_backup.py
 data_loader_test.py
 downloadModels.sh.ipynb*
 .ipynb_checkpoints
+Data/
+FlowersData/

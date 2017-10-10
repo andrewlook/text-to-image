@@ -39,6 +39,9 @@ COPY requirements.txt /root/requirements.txt
 RUN pip install -r /root/requirements.txt
 RUN rm /root/requirements.txt
 
+# ugh
+RUN python -m nltk.downloader punkt
+
 # Install TensorFlow GPU version.
 ENV TENSORFLOW_VERSION 0.11.0
 RUN pip --no-cache-dir install \
