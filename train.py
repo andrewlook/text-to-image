@@ -126,7 +126,8 @@ def main():
 					input_tensors['t_z'] : z_noise,
 				})
 			
-			print "LOSSES", d_loss, g_loss, batch_no, i, len(loaded_data['image_list'])/ args.batch_size
+			#print "LOSSES", d_loss, g_loss, batch_no, i, len(loaded_data['image_list'])/ args.batch_size
+			print "LOSSES", d_loss, g_loss, batch_no, i #, len(loaded_data['data_length'])/ args.batch_size
 			batch_no += 1
 			if (batch_no % args.save_every) == 0:
 				print "Saving Images, Model"
